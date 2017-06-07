@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <array name="menu">
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+        <item>嘻嘻</item>
+    </array>
+</resources>

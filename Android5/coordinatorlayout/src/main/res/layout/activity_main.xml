@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiao.coordinatorlayout.MainActivity">
+
+    <!--<View-->
+    <!--android:id="@+id/view1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:onClick="btnclick"-->
+    <!--android:background="#f00"/>-->
+    <!--<View-->
+    <!--android:id="@+id/view3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:onClick="btnclick"-->
+    <!--android:background="#18a0df"/>-->
+
+    <!--<View-->
+    <!--android:id="@+id/view2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="#00f"-->
+    <!--app:layout_behavior=".Mybehavior"-->
+    <!--app:viewid="@+id/view1"/>-->
+
+    <!--<View-->
+        <!--android:id="@+id/view1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="#18a0df"-->
+        <!--app:layout_behavior=".ScrollBehavior"/>-->
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tools"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <EditText
+                    android:background="#d1c7c7"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.Toolbar>
+
+            <Button
+                android:id="@+id/btn"
+                android:onClick="btnclick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="标题栏"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+         <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_star_big_on"
+            app:layout_anchor="@+id/rc"
+            app:layout_anchorGravity="bottom|right"
+            app:fabSize="mini"
+            android:layout_margin="20dp"
+            app:layout_behavior=".FabBehavior"/>
+
+
+</android.support.design.widget.CoordinatorLayout>
