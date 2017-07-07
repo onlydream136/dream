@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         password = (TextInputLayout) findViewById(R.id.password);
         EditText editText = username.getEditText();
         editText.addTextChangedListener(this);
-        String abc = "xyz";
+        String abc = "157716454654654";
+        String abcef = "瞿少华";
 
         tab = (TabLayout) findViewById(R.id.tab);
 //        tab.addTab(tab.newTab().setText("哈哈"));
