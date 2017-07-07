@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         EditText editText = username.getEditText();
         editText.addTextChangedListener(this);
         String abc = "157716454654654";
-        String abcef = "瞿少华";
+        String abcef = "123456789";
 
         tab = (TabLayout) findViewById(R.id.tab);
 //        tab.addTab(tab.newTab().setText("哈哈"));
