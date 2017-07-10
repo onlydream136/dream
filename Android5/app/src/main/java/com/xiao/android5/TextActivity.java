@@ -6,5 +6,4 @@ package com.xiao.android5;
 
 public class TextActivity {
 	String name = "bcd_1234";
-    String six = "女";
 }
