@@ -1,9 +1,9 @@
-package com.xiao.android5;
+ï»¿package com.xiao.android5;
 
 /**
  * Created by ${qsh} on 2017/7/7.
  */
 
 public class TextActivity {
-	String name = "abc_À²À²À²";
+	String name = "abc_123";
 }
