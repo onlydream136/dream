@@ -5,5 +5,5 @@ package com.xiao.android5;
  */
 
 public class TextActivity {
-	String name = "bcd_1234";
+	String name = "abc_1234567";
 }
