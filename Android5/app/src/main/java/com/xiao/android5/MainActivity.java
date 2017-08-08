@@ -1,4 +1,4 @@
-package com.xiao.android5;
+﻿package com.xiao.android5;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         password = (TextInputLayout) findViewById(R.id.password);
         EditText editText = username.getEditText();
         editText.addTextChangedListener(this);
-        String abc = "abc_6666666";
+        String abc = "abc_123";
         tab = (TabLayout) findViewById(R.id.tab);
 //        tab.addTab(tab.newTab().setText("哈哈"));
 //        tab.addTab(tab.newTab().setText("嘿嘿"));
