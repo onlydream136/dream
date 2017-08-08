@@ -1,4 +1,4 @@
-﻿package com.xiao.android5;
+package com.xiao.android5;
 
 import android.content.Context;
 import android.graphics.Color;

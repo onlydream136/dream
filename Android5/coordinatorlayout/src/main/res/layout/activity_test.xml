@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/common_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d00018">
+
+        <ImageView
+            android:id="@+id/left_arrow_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="10dp"
+            android:src="@mipmap/left_break" />
+
+
+        <TextView
+            android:id="@+id/tilte_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="68dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="用户标题"
+            android:textColor="#ffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@mipmap/icon_help" />
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/common_top_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:background="@drawable/shape_red_extension" />
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/lsdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="131dp"
+                            android:background="@drawable/shape_red_extension" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_head"
+                            android:layout_marginBottom="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff">
+
+                            <RelativeLayout
+                                android:id="@+id/rl_right"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:padding="12dp">
+
+                                <TextView
+                                    android:id="@+id/tv_libao"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:drawablePadding="6dp"
+                                    android:drawableTop="@mipmap/brand_promotion_03"
+                                    android:text="白银礼包" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="6dp"
+                                    android:layout_toRightOf="@+id/tv_libao"
+                                    android:src="@mipmap/arrow_right" />
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/rl_right">
+
+                                <TextView
+                                    android:id="@+id/tv_title"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:paddingLeft="12dp"
+                                    android:text="省得浪费空间阿斯顿浪费空"
+                                    android:textColor="#666666"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tv_title"
+                                    android:paddingLeft="12dp"
+                                    android:text="上月排名打败了80%的医生,获得白银礼包"
+                                    android:textColor="#999999"
+                                    android:textSize="12sp" />
+
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rl_head"
+                            android:background="#fff">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="12dp"
+                                android:text="sldkfjasldk" />
+
+                            <TextView
+                                android:id="@+id/tv2"
+                                android:layout_below="@+id/tv1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="12dp"
+                                android:text="sldkfjasldk" />
+                            <TextView
+                                android:layout_below="@+id/tv2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="12dp"
+                                android:text="sldkfjasldk" />
+
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_left"
+                            android:layout_below="@id/rl_head"
+                            android:layout_marginTop="-27dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/brand_promotion_07" />
+
+                        <ImageView
+                            android:id="@+id/iv_right"
+                            android:layout_below="@id/rl_head"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-27dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/brand_promotion_10" />
+
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

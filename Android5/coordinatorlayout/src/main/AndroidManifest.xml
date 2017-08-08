@@ -17,6 +17,9 @@
             android:value="@integer/google_play_services_version" />
         <activity android:name=".FragmentActivity"/>
         <activity android:name=".TextActivity">
+
+        </activity>
+        <activity android:name=".ActivityTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 圆角 -->
+    <corners
+        android:radius="9dp"
+        android:topLeftRadius="2dp"
+        android:topRightRadius="2dp"
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="2dp"/><!-- 设置圆角半径 -->
+
+    <!--&lt;!&ndash; 渐变 &ndash;&gt;-->
+    <!--<gradient-->
+        <!--android:startColor="@android:color/white"-->
+        <!--android:centerColor="@android:color/black"-->
+        <!--android:endColor="@android:color/black"-->
+        <!--android:useLevel="true"-->
+        <!--android:angle="45"-->
+        <!--android:type="radial"-->
+        <!--android:centerX="0"-->
+        <!--android:centerY="0"-->
+        <!--android:gradientRadius="90"/>-->
+
+
+
+    <!-- 间隔 -->
+    <padding
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp"/><!-- 各方向的间隔 -->
+
+    <!-- 大小 -->
+    <size
+        android:width="50dp"
+        android:height="50dp"/><!-- 宽度和高度 -->
+
+    <!--&lt;!&ndash; 填充 &ndash;&gt;-->
+    <!--<solid-->
+        <!--android:color="#00000000"/>&lt;!&ndash; 填充的颜色 &ndash;&gt;-->
+
+    <!-- 描边，边框 -->
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/black"
+        android:dashWidth="1dp"
+        android:dashGap="2dp"/>
+
+
+    <gradient
+        android:angle="270"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="#f9ecee"
+        android:startColor="#d00018"
+        android:type="linear" />
+</shape>
